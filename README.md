@@ -154,7 +154,7 @@ curl http://localhost:5000/health
 
 ```bash
 
-curl -X POST http://localhost:5000/clientes -H "Content-Type: application/json" -d "{\\"nome\\":\\"Joao Silva\\",\\"cpf\\":\\"111.222.333-44\\",\\"email\\":\\"joao@dimdim.com\\",\\"saldo\\":1500.00}"
+curl -X POST http://localhost:5000/clientes -H "Content-Type: application/json" -d "{\"nome\":\"Joao Silva\",\"cpf\":\"111.222.333-44\",\"email\":\"joao@dimdim.com\",\"saldo\":1500.00}"
 
 ```
 
@@ -174,7 +174,7 @@ curl http://localhost:5000/clientes
 
 ```bash
 
-curl -X PUT http://localhost:5000/clientes/1 -H "Content-Type: application/json" -d "{\\"nome\\":\\"Joao Atualizado\\",\\"email\\":\\"novo@dimdim.com\\",\\"saldo\\":2500.00}"
+curl -X PUT http://localhost:5000/clientes/1 -H "Content-Type: application/json" -d "{\"nome\":\"Joao Silva Atualizado\",\"email\":\"novo@dimdim.com\",\"saldo\":2500.00}"
 
 ```
 
