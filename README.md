@@ -193,8 +193,12 @@ curl http://localhost:5000/clientes/1
 curl -X DELETE http://localhost:5000/clientes/1
 
 ```
+\### READ
 
+```bash
+curl http://localhost:5000/clientes
 
+```
 
 \### Verificar direto no banco
 
