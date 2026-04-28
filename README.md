@@ -178,7 +178,13 @@ curl -X PUT http://localhost:5000/clientes/1 -H "Content-Type: application/json"
 
 ```
 
+\### READ
 
+```bash
+
+curl http://localhost:5000/clientes/1
+
+```
 
 \### DELETE
 
