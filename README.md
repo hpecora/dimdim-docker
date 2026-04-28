@@ -204,7 +204,7 @@ curl http://localhost:5000/clientes
 
 ```bash
 
-docker exec -it db-556612 psql -U dimdim -d dimdim -c "SELECT \* FROM clientes;"
+docker exec -it db-556612 psql -U dimdim -d dimdim -c "SELECT * FROM clientes;"
 
 ```
 
